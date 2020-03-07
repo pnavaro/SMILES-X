@@ -5,7 +5,10 @@ channels:
 dependencies:
   - gpy
   - gpyopt
+  - ipykernel
   - keras
   - matplotlib
   - pandas
+  - rdkit
   - scikit-learn
+  - adjusttext
