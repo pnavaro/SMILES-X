@@ -3,7 +3,13 @@ from keras.models import Model
 from keras.layers import Input, Dense
 from keras.layers import Embedding
 from keras.layers.wrappers import Bidirectional
-from keras.layers import CuDNNLSTM, TimeDistributed
+from keras.layers import TimeDistributed
+
+import tensorflow as tf
+if tf.test.is_gpu_available():
+    from keras.layers import CuDNNLSTM
+else:
+    from keras.layers import LSTM as CuDNNLSTM
 
 from keras.engine.topology import Layer
 
