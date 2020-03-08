@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pnavaro/SMILES-X/master)
+
 # SMILES-X
 Autonomous molecular compounds characterization for small datasets without descriptors</br>
 
