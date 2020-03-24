@@ -4,7 +4,7 @@ import math
 # For fixing the GPU in use
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";
 # The GPU id to use (e.g. "0", "1", etc.)
-os.environ["CUDA_VISIBLE_DEVICES"]="-1";
+# os.environ["CUDA_VISIBLE_DEVICES"]="-1";
 
 import matplotlib.pyplot as plt
 
